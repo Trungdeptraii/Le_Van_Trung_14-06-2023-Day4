@@ -1,0 +1,46 @@
+.footer{
+    margin: 10px auto;
+    background: #334455;
+    width: 1162px;
+    height: 218px;
+    border-radius: 10px;
+}
+.footer:hover,
+span{
+    color: #fda404;
+}
+.sub-footer{
+    padding: 12px 20px 20px 40px;
+}
+
+p{
+    color: white;
+}
+h1{
+    color: white;
+}
+.btn-submit {
+    padding: 0px 0px;
+    width: 290px;
+    height: 55px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #f8db35;
+}
+.footer:hover .btn-submit {
+    background-color: #fda404;
+    color: #ffff;
+}
+.email{
+    width: 290px;
+    height: 47px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.footer:hover input[type="email"]::placeholder{
+    color: #fda404;
+
+}
+.footer:hover input[type="email"]{
+    background-color: #ddd;
+}

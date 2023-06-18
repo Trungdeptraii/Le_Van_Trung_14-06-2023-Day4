@@ -1,0 +1,137 @@
+h1{
+    text-align: center;
+    font-size: 42px;
+    font-weight: 900;
+}
+.nav-lists{
+    display: flex;
+    justify-content: center;
+}
+.lists-item{
+    display: flex;
+    list-style: none;
+}
+input[type="radio"]:checked ~ .item{
+    background-color: blue;
+    color: white;
+}
+input[type="radio"]{
+    display: none;
+}
+.item:first-child{
+    background-color: blue;
+    color: white;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: none;
+    background-color: #f5f5f5;
+    padding: 0px 40px;
+    height: 50px;
+    margin: 0px 5px;
+    color: #3a3737;
+    font-weight: 600;
+}
+
+.lists-star{
+    display: flex;
+    list-style: none;
+}
+.star{
+    width: 10px;
+    height: 10px;
+    margin: 0px 5px;
+}
+.lists-icon-kart{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px;
+    margin: 5px 0px;
+}
+.icon-kart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px;
+}
+.icon-kart-item{
+    color: aliceblue;
+    width: 42px;
+    height: 42px;
+}
+.btn-kart{
+    width: 200px;
+    height: 50px;
+    margin-left: 5px;
+    background-color: blue;
+    color: white;
+    font-weight: 600;
+}
+.product{
+    width: 200px;
+    margin: 50px 50px;
+}
+.product-item{
+    position: relative;
+}
+.product-kart{
+    display: none;
+    position: absolute;
+    bottom: 0px;
+    left: -5px;
+}
+.price{
+    text-align: center;
+    font-weight: 600;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.btn-kart, .item, .icon-kart{
+    cursor: pointer;
+}
+.product:hover .product-item .product-kart{
+    display: block;
+}
+.photo-1, .photo-2, .photo-3, .photo-4{
+    width: 200px;
+    height: 250px;
+    background-size: cover;
+}
+.product:hover  .photo-1, .product:hover  .photo-2, .product:hover  .photo-3, .product:hover  .photo-4{
+    background-size: cover;
+}
+.photo-1{
+    
+    background-image: url('../assets/imgs/cat.jpg');
+}
+.product:hover  .photo-1{
+    background-image: url('../assets/imgs/cat_1.jpg');
+}
+.photo-2{
+    background-image: url('../assets/imgs/dog.jpg');
+}
+.product:hover  .photo-2{
+    background-image: url('../assets/imgs/dog_1.jpg');
+}
+.photo-3{
+    background-image: url('../assets/imgs/bear.jpg');
+}
+.product:hover  .photo-3{
+    background-image: url('../assets/imgs/bear_1.jpg');
+}
+.photo-4{
+    background-image: url('../assets/imgs/horse.jpg');
+}
+.product:hover  .photo-4{
+    background-image: url('../assets/imgs/horse_1.jpg');
+}
+
